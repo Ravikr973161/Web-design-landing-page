@@ -98,3 +98,22 @@ nav img{
     top: 250px;
     cursor: pointer;
 }
+
+.learn-more-btn:hover{
+    background-image: linear-gradient(to right, rgb(22, 135, 126), rgb(188, 22, 33)); ;
+}
+
+@media only screen and (max-width:500px){
+
+    .intro-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+   
+   .imgs-div{
+    display: none;
+   }
+   .nav-items{
+    display: none;
+   }
+}
